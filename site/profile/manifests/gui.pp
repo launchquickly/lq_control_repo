@@ -17,4 +17,16 @@ class profile::gui {
     line => 'allowed_users=anybody',
     match   => "allowed_users=console",
   }
+  
+  file { '/home/vagrant/.bash_profile':
+    ensure => present,
+    owner  => 'vagrant',
+    group  => 'vagrant',
+    mode   => '600',
+  }
+  
+  file_line { 'startx on login':
+    path => '/home/vagrant/.bash_profile',
+    line => 'exec startx',
+  }
 }

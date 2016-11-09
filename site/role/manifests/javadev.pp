@@ -3,4 +3,5 @@ class role::javadev {
    include profile::gui
    include profile::java
    include profile::maven
+   include profile::eclipse
 }

@@ -1,7 +1,5 @@
 class profile::eclipse {
 
-  class { 'archive::prerequisites': }
-  
   class { 'eclipse':
     method          => 'download',
     package         => 'java',
@@ -9,6 +7,4 @@ class profile::eclipse {
     service_release => '1',
   }
   
-  Class['archive::prerequisites'] -> Class['eclipse']
-
 }

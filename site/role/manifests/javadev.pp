@@ -4,4 +4,5 @@ class role::javadev {
    include profile::java
    include profile::maven
    include profile::eclipse
+   include profile::chrome
 }

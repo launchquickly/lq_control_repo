@@ -4,4 +4,6 @@ class profile::base {
   notify { "Environment: ${::environment}": }
   notify { "FQDN       : ${::fqdn}": }
   notify { "IP Address : ${::ipaddress}": }
+  
+  include '::ntp'
 }

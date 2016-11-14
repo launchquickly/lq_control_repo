@@ -5,4 +5,5 @@ class role::javadev {
    include profile::maven
    include profile::eclipse
    include profile::chrome
+   include profile::awscli
 }

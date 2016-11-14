@@ -10,5 +10,5 @@ mod 'puppetlabs-ntp',               '6.0.0'
 mod 'puppetlabs-stdlib',            '4.13.1'
 
 mod 'eclipse',
-  :git => 'https://github.com/pauljkearney/puppet-eclipse.git',
+  :git => 'https://github.com/launchquickly/puppet-eclipse.git',
   :branch => 'master'

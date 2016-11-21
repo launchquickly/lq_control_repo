@@ -6,4 +6,5 @@ class role::javadev {
    include profile::eclipse
    include profile::chrome
    include profile::awscli
+   include profile::utils
 }

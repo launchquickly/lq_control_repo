@@ -4,4 +4,5 @@ class role::elmdev {
    include profile::nodejs
    include profile::elm
    include profile::chrome
+   include profile::utils
 }

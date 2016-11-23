@@ -3,6 +3,7 @@ class role::elmdev {
    include profile::gui
    include profile::nodejs
    include profile::elm
+   include profile::atom
    include profile::chrome
    include profile::utils
 }

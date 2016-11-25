@@ -1,3 +1,4 @@
+mod 'cyberious-apm',                '0.1.1'
 mod 'gini-archive',                 '0.2.1'
 mod 'jamesnetherton-google_chrome', '0.2.6'
 mod 'jdowning-awscli',              '1.3.0'
@@ -10,10 +11,10 @@ mod 'puppetlabs-java',              '1.6.0'
 mod 'puppetlabs-ntp',               '6.0.0'
 mod 'puppetlabs-stdlib',            '4.13.1'
 
-mod 'eclipse',
+mod 'puppet-eclipse',
   :git => 'https://github.com/launchquickly/puppet-eclipse.git',
   :branch => 'master'
   
-mod 'puppetlabs-nodejs',
+mod 'puppet-nodejs',
   :git => 'https://github.com/launchquickly/puppet-nodejs.git',
   :branch => 'master'

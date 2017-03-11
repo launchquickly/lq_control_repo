@@ -4,4 +4,9 @@ class profile::atomelm {
     ensure   => latest,
     provider => apm,
   }
+
+  package { 'elm-format':
+    ensure   => latest,
+    provider => apm,
+  }
 }

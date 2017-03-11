@@ -4,14 +4,6 @@ class profile::gui {
     ensure => installed,
   }
   
-  package { 'gnome-icon-theme-full':
-    ensure => installed,
-  }
-  
-  package { 'tango-icon-theme':
-    ensure => installed,
-  }
-
   file { '/etc/X11/Xwrapper.config':
     ensure => present,
   }

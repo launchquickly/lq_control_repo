@@ -1,5 +1,5 @@
 mod 'cyberious-apm',                '0.1.1'
-mod 'gini-archive',                 '0.2.1'
+#mod 'gini-archive',                 '0.2.1'
 mod 'jamesnetherton-google_chrome', '0.2.6'
 mod 'jdowning-awscli',              '1.3.0'
 mod 'maestrodev-maven',             '1.4.0'

@@ -12,6 +12,6 @@ mod 'puppet-nodejs',                '2.3.0'
 mod 'puppetlabs-ntp',               '6.0.0'
 mod 'puppetlabs-stdlib',            '4.13.1'
 
-mod 'puppet-eclipse',
-  :git => 'https://github.com/launchquickly/puppet-eclipse.git',
-  :branch => 'master'
+#mod 'puppet-eclipse',
+#  :git => 'https://github.com/launchquickly/puppet-eclipse.git',
+#  :branch => 'master'

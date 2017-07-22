@@ -14,7 +14,7 @@ class profile::sts {
     owner  => 'root',
     group  => 'root',
     mode   => '0644',
-    source => "puppet:///site/profile/STS.desktop",
+    source => "file:/etc/puppetlabs/code/environments/lq_control_repo/site/profile/files/STS.desktop",
   }
 
 }

@@ -8,5 +8,13 @@ class profile::sts {
     creates       => '/opt/sts-bundle',
     cleanup       => true,
   }
+  
+  file { '/usr/share/applications/STS.desktop':
+    ensure => present,
+    owner  => 'root',
+    group  => 'root',
+    mode   => '0644',
+    source => "puppet:///site/profile/STS.desktop",
+  }
 
 }

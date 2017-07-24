@@ -11,7 +11,7 @@ class profile::gradle {
   
   file { '/etc/profile.d/append-gradle-path.sh':
     mode    => '644',
-    content => 'PATH=$PATH:/opt/gradle/bin',
+    content => 'PATH=$PATH:/opt/gradle-4.0.1/bin',
   }
 
 }

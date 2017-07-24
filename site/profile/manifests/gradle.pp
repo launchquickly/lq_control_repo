@@ -9,9 +9,9 @@ class profile::gradle {
     cleanup       => true,
   }
   
-  file { '/etc/profile.d/append-gradle-path.sh':
-    mode    => '644',
-    content => 'PATH=$PATH:/opt/gradle-4.0.1/bin',
+  file { '/usr/local/bin/gradle':
+    ensure => 'link',
+    target => '/opt/gradle-4.0.1/bin/gradle',
   }
 
 }

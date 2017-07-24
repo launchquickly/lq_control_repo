@@ -1,0 +1,17 @@
+class profile::gradle {
+
+  archive { '/opt/gradle-4.0.1-bin.zip':
+    ensure        => present,
+    extract       => true,
+    extract_path  => '/opt',
+    source        => 'https://services.gradle.org/distributions/gradle-4.0.1-bin.zip',
+    creates       => '/opt/gradle',
+    cleanup       => true,
+  }
+  
+  file { '/etc/profile.d/append-gradle-path.sh':
+    mode    => '644',
+    content => 'PATH=$PATH:/opt/gradle/bin',
+  }
+
+}

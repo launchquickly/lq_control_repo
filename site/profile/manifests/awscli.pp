@@ -5,7 +5,6 @@ class profile::awscli {
   package { 'aws-shell':
     provider => 'pip',
     ensure   => installed,
-    require  => Package['pip'],
   }
 
 }

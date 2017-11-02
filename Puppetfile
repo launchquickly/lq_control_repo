@@ -1,5 +1,6 @@
 mod 'jamesnetherton-google_chrome', '0.2.6'
 mod 'jdowning-awscli',              '2.0.0'
+mod 'lwf-remote_file',              '1.1.3'
 mod 'maestrodev-maven',             '1.4.0'
 mod 'maestrodev-wget',              '1.7.3'
 mod 'puppetlabs-apt',               '4.1.0'

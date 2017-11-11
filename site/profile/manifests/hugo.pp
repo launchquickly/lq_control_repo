@@ -6,9 +6,10 @@ class profile::hugo {
     destination => '/tmp/',
     timeout     => 0,
     verbose     => false,
+    before      => Package['hugo'],
   }
   
-  package { "hugo-${version}":
+  package { "hugo":
     provider => dpkg,
     ensure   => installed,
     source   => "/tmp/hugo_${version}_Linux-64bit.deb",
